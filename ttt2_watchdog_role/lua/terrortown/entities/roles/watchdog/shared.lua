@@ -54,6 +54,14 @@ function ROLE:Initialize()
 		LANG.AddToLanguage("Deutsch", "search_role_" .. self.abbr, "Diese Person war ein Wachhund!")
 		LANG.AddToLanguage("Deutsch", "target_" .. self.name, "Wachhund")
 		LANG.AddToLanguage("Deutsch", "ttt2_desc_" .. self.name, [[Der Wachhund ist ein Detektiv (der mit den anderen Detektiv-Rollen zusammenarbeitet)]])
+
+		LANG.AddToLanguage("Русский", self.name, "Ватчдог")
+		LANG.AddToLanguage("Русский", "info_popup_" .. self.name, [[Вы ватчдог!
+	Попытайтесь получить кредиты!]])
+		LANG.AddToLanguage("Русский", "body_found_" .. self.abbr, "Это был ватчдог...")
+		LANG.AddToLanguage("Русский", "search_role_" .. self.abbr, "Этот человек был ватчдогом!")
+		LANG.AddToLanguage("Русский", "target_" .. self.name, "Ватчдог")
+		LANG.AddToLanguage("Русский", "ttt2_desc_" .. self.name, [[Ватчдог - детектив (который работает вместе с другими детективами)]])
 	end
 end
 
